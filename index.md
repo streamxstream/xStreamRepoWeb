@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/streamxstream/xStreamRepoWeb/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/streamxstream/xStreamRepoWeb/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<html>
+  <body>
+  <h1>Willkommen bei xStream</h1>
+  <img src="icon.png" style="max-width: 40%;">
+    <h2><p>Installation von xStream Repository</p></h2>
+    <h4><p>xStream ist ein Video Addon für das Mediacenter Kodi</p>
+     <p>Es ist kein Bestandteil von Kodi</p>
+     <p>xStream dient nur als Suchmaschine und hostet selbst keine Dateien!</p>
+     <p>Der Homepage Link kann in Kodi als Quelle eingebunden und daraus dann die xStream Repo installiert werden</p>
+     <p>Eine ausführliche FAQ zur Installation, In Kodi als Quelle einbinden, Übersicht und Problemlösungen ist hier zu finden:
+      <a href="https://github.com/streamxstream/xStream-FAQ/blob/master/xStream_Anleitung_FAQ.md">FAQ</a></p> 
+     <p><b>Zum Chatroom:</b>
+      <a href="https://gitter.im/streamxstream/community?source=orgpage">Chat</a></p>
+      <!--Download Buttom-->
+      <p><a href="repository.xstream-1.1.9.zip"><img src="https://raw.githubusercontent.com/streamxstream/xStreamRepoWeb/gh-pages/Download%20Bild.jpg" style="max-width: 20%;"></a></p></h4>
+      <h4><p>In Kodi als Quelle sichtbar:</p></h4>
+       <a href="repository.xstream-1.1.9.zip">repository.xstream-1.1.9.zip</a>
+  </body>
+</html>
