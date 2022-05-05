@@ -1,0 +1,347 @@
+/* Globale Einstellungen */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+    background: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #333333;
+    line-height: 28px;
+    text-align: center;
+    overflow-x: hidden !important;
+    margin: auto !important;
+}
+
+a, a:hover, a:active, a:focus {
+    border: 0 none;
+    outline: 0 none;
+    text-decoration: none;
+}
+
+/* Schriftgrößen */
+
+h1,
+h2 {
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 42px;
+    line-height: 62px;
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 42px;
+}
+
+h3 {
+    font-size: 22px;
+    line-height: 38px;
+    font-weight: 300;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+/* Form Gruppen */
+
+.form-control {
+	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
+	border-radius: 0px;
+    box-shadow: none;
+    height: 57px;
+    padding-left: 20px;
+}
+
+/* Farb Klassen */
+
+.white-text {
+	color: #FFFFFF;
+}
+
+.black-text {
+	color: #000000;
+}
+
+.colored-line-small-center {
+	background: #008ed6;
+	display: block;
+	margin: auto;
+    height: 1px;
+    width: 25%;
+    z-index: 1;
+	margin-bottom: 5px;
+}
+
+.colored-line-right {
+	background: #008ed6;
+	display: block;
+	float: right;
+    height: 1px;
+    width: 165px;
+    z-index: 1;
+}
+
+.button-leweb {
+	background: none repeat scroll 0 0 rgba(22, 182, 234, 0.5);
+    border: 1px solid #fff;
+	color: #fff;
+	border-radius: 0px;
+    box-shadow: none;
+	height: 57px;
+	padding-left: 18px;
+	padding-right: 18px;
+	
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease; 
+}
+
+
+.button-leweb:hover {
+	background: #008ed6;
+}
+
+
+/* Bereiche */
+
+section {
+	padding: 120px 0px;
+}
+/* Header */
+
+#header {
+	background: url(../images/background.jpg) no-repeat center center;
+	background-size: cover;
+	height: 100vh;
+	padding: 0px;
+}
+
+
+#header .col-md-8 {
+	top: 20%;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 999;
+}
+
+#header .logo {
+	margin-bottom: 15px;
+}
+
+.animation {
+	width: 100%;
+	bottom: 0;
+	height: 50px;
+	overflow: hidden;
+	position: absolute;
+	z-index: 999;
+	text-align:center;
+	text-decoration: none;
+}
+
+#header .fa-angle-down {
+	text-align: center;
+	font-size: 48px;
+	color: #fff;
+	
+	-webkit-animation: leweb_fade_move_down 2s ease-in-out infinite;
+	-moz-animation: leweb_fade_move_down 2s ease-in-out infinite;
+	animation: leweb_fade_move_down 2s ease-in-out infinite;
+   }
+
+/* Animierter Pfeil */
+	
+@-webkit-keyframes leweb_fade_move_down {
+  0%   { -webkit-transform:translate(0,-20px); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -webkit-transform:translate(0,20px); opacity: 0; }
+}
+@-moz-keyframes leweb_fade_move_down {
+  0%   { -moz-transform:translate(0,-20px); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -moz-transform:translate(0,20px); opacity: 0; }
+}
+@keyframes leweb_fade_move_down {
+  0%   { transform:translate(0,-20px); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { transform:translate(0,20px); opacity: 0; }
+}
+
+
+/* Übersicht */
+
+#about i {
+	color: #fff;
+	font-size: 75px;
+	background: #008ed6;
+	border-radius: 50%;
+	line-height: 175px;
+	height: 175px;
+	width: 175px;
+}
+
+/* Download */
+
+#download {
+	background: url(../images/download.jpg) no-repeat fixed center center / cover rgba(0, 0, 0, 0);
+	padding: 0px;
+	min-height: 430px;
+}
+
+#download .icontop {
+	position: absolute;
+	color: #FFFFFF;
+	margin: -30px auto;
+	right: 0;
+	left: 0;
+	font-size: 25px;
+	border-radius: 50%;
+	line-height: 65px;
+	height: 65px;
+	width: 65px;
+	background: rgba(0, 142, 214, 0.7);	
+	box-shadow: 0 0 0 1px #008ed6;
+}
+
+#download .row {
+	padding: 100px 0px 120px 0px;
+}
+
+#download h5{
+	margin-bottom: 45px;
+}
+
+
+#download .button-leweb {
+	display: inline-block;
+}
+
+
+/* Footer */
+
+#footer {
+	border-top: 1px solid #ccc;
+	padding: 25px 0px;
+}
+
+#footer p {
+	margin: 0px 0px -5px;
+}
+
+#footer .social {
+	float: right;
+}
+
+#footer .fa {
+	font-size: 24px;
+	color: rgba(22, 182, 234, 0.5);
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+#footer .fa:hover {
+	color: #008ed6;
+}
+
+
+
+
+/* Extra kleine Geräte (Tablets, 446px) */
+@media (max-width: 456px) { 
+	
+	#mc_form .form-control {
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	
+	.button-leweb {
+		width: 100%;
+	}
+	
+	#header .logo {
+		width: 200px;
+	}
+	
+	#header h1 {
+		display: none;
+	}
+
+}
+/* kleine Geräte (Tablets, 768px) */
+@media (max-width: 768px) { 
+
+	body {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	h1 {
+		font-size: 44px;
+		line-height: 58px;
+	}
+
+	h2 {
+		font-size: 24px;
+		line-height: 38px;
+	}
+
+	h3 {
+		font-size: 18px;
+		line-height: 30px;
+	}
+
+	h4 {
+		font-size: 16px;
+		line-height: 26px;
+	}
+
+	h5 {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	
+	.clocktitle{
+		font-size: 11px;
+	}
+
+	.numbers {
+		font-size: 44px;
+	}
+	
+	#header .col-md-8 {
+		top: 5%;
+	}
+}
+
+/* Standart Geräte (Desktops, 992px und größer) */
+@media (max-width: 992px) {	
+	
+	#about .middle {
+		margin-top: 65px;
+		margin-bottom: 65px;
+	}
+}
+
