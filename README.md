@@ -11,7 +11,7 @@ Diese werden auch als Site-Plugins bezeichnet, welche auf die eigentlichen Quell
 
 ***
 
-[![Gitter](https://badges.gitter.im/streamxstream/community.svg)](https://gitter.im/streamxstream/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![Gitter](https://badges.gitter.im/streamxstream/community.svg)](https://app.gitter.im/#/room/#streamxstream_community:gitter.im)
 
 ### | [FAQ](https://github.com/streamxstream/xStream-FAQ/blob/master/xStream_Anleitung_FAQ.md)
 
