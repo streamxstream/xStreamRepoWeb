@@ -11,7 +11,7 @@ Diese werden auch als Site-Plugins bezeichnet, welche auf die eigentlichen Quell
 
 ***
 
-### | [Matrix Chat](https://matrix.to/#/#streamxstream_xTeam:gitter.im)
+### | [Matrix Chat](https://matrix.to/#/#streamxstream_community:gitter.im)
 
 ### | [FAQ](https://github.com/streamxstream/xStream-FAQ/blob/master/xStream_Anleitung_FAQ.md)
 
