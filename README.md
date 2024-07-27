@@ -1,18 +1,26 @@
-![xStream logo](https://raw.githubusercontent.com/streamxstream/xStream-FAQ/master/Logo%20FAQ.png)
 
+## Willkommen auf der xStream Webseite für Kodi!
 
-## Willkommen bei xStream für Kodi!
+![xStream logo](https://raw.githubusercontent.com/streamxstream/xStreamRepoWeb/gh-pages/icon.png)
 
-Bei xStream handelt es sich um ein Video-Addon für Kodi, welches das streamen von Filmen und Serien über eine intuitive und optisch ansprechende Benutzeroberfläche ermöglicht
-
-Sowohl der Funktionsumfang von xStream als auch das Angebot an Streaming-Inhalten wird von den beteiligten Entwicklern stetig weiterentwickelt bzw. um neue Webseiten erweitert
-
-Diese werden auch als Site-Plugins bezeichnet, welche auf die eigentlichen Quellen verweisen die für das bereitgestellte Angebot verantworlich sind! 
+Hier auf unserer kleinen Webseite findet Ihr alle erforderlichen Informationen und Links rund um xStream.
 
 ***
 
-### | [Matrix Chat](https://matrix.to/#/#streamxstream_community:gitter.im)
+Habt Ihr Fragen rund um xStream findet Ihr sicher eure Antworten in unserer FAQ.
 
-### | [FAQ](https://github.com/streamxstream/xStream-FAQ/blob/master/xStream_Anleitung_FAQ.md)
+[![FaQ aufrufen](https://raw.githubusercontent.com/streamxstream/xStreamRepoWeb/gh-pages/config/faq.png)](https://github.com/streamxstream/xStream-FAQ/blob/master/xStream_Anleitung_FAQ.md)
 
-### | [Web Portal](https://streamxstream.github.io/xStreamRepoWeb/)
+***
+
+Für alles weitere findet Ihr auch Informationen auf unserer Webseite die Ihr auch als Quelle in Kodi einbinden könnt.
+
+[![Web Portal aufrufen](https://raw.githubusercontent.com/streamxstream/xStreamRepoWeb/gh-pages/config/web.png)](https://streamxstream.github.io/xStreamRepoWeb/)
+
+***
+
+Oder nutzt unseren Chat wenn Ihr irgendwelche anderen Fragen um xStream beantwortet haben möchtet.
+
+[![Gitter Chat](https://raw.githubusercontent.com/streamxstream/xStreamRepoWeb/gh-pages/config/gitter.png)](https://gitter.im/streamxstream/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
+[![Matrix.to Chat](https://raw.githubusercontent.com/streamxstream/xStreamRepoWeb/gh-pages/config/element.png)](https://matrix.to/#/#streamxstream_community:gitter.im)
